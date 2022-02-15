@@ -16,7 +16,7 @@ MVP: Setting up mysql server, ingestion of data through API, and visualization t
 ![image](https://user-images.githubusercontent.com/24833996/154003470-8119d4fe-4a9a-48b4-85bf-a10a39aafd75.png)
 1) Hit Ethplorer API to gather data on Celebrities' Wallet.
 2) Connect to Aurora Mysql server on AWS
-3) Connect Metabase for data visualization
+3) Connect Metabase for data visualization. Hosted on AWS Elastic Beanstalk.
 
 **ERD**
 
