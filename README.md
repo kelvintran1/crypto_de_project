@@ -1,6 +1,6 @@
 # crypto_de_project
 
-**Context:** Cryptocurrency has ballooned in popularity within the past decade and many celebrities have started to participate within the space in some form or way. Supporters of cryptocurrency also proclaim that decentralization and having a public ledger for digital currency are some key attributes that make cryptocurrency superior to existing non-digital currencies. With transactions theroretically being public, I want to build a small project to possibly guage how transparent the space actually is, peek into the crypto-related activity that celebrities have taken so far, and practice setting up data engineering infrastructure.
+**Context:** Cryptocurrency has ballooned in popularity within the past decade and many celebrities have started to participate within the space in some form or way. Supporters of cryptocurrency also proclaim that decentralization and having a public ledger for digital currency are some key attributes that make cryptocurrency superior to existing non-digital currencies. With transactions theoretically being public, I want to build a small project to possibly gauge how transparent the space actually is, peek into the crypto-related activity that celebrities have taken so far through publicly available wallet addresses, and practice setting up data engineering infrastructure.
 
 **Questions I possibly hope to answer:**
 1) Can I see how much a celebrity possibly has within their wallet?
@@ -14,7 +14,7 @@ MVP: Setting up mysql server, ingestion of data through API, and visualization t
 **Current Architecture:**
 ![image](https://user-images.githubusercontent.com/24833996/154003470-8119d4fe-4a9a-48b4-85bf-a10a39aafd75.png)
 1) Hit Ethplorer API to gather data on Celebrities' Wallet.
-2) Connect to Aurora Mysql server on AWS
+2) Connect to Aurora MySQL server hosted on AWS
 3) Connect Metabase for data visualization. Hosted on AWS Elastic Beanstalk.
 
 **ERD**
@@ -24,7 +24,7 @@ MVP: Setting up mysql server, ingestion of data through API, and visualization t
 
 **Architecture Improvement Ideas:**
 ![image](https://user-images.githubusercontent.com/24833996/154005398-02ccd16a-18d9-4552-a4f0-d9ea58017e2a.png)
-1) Airlfow for ingestration and transformation orchestration
+1) Airlfow for ingestion and transformation orchestration
 2) Airbyte to make ingestion simpler
 3) DBT for transformations as I get more data to work with.
 
