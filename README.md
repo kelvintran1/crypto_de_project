@@ -1,5 +1,4 @@
 # crypto_de_project
-Small project to potentially take a look at celebrity participation in cryptocurrency.
 
 **Context:** Cryptocurrency has ballooned in popularity within the past decade and many celebrities have started to participate within the space in some form or way. Supporters of cryptocurrency also proclaim that decentralization and having a public ledger for digital currency are some key attributes that make cryptocurrency superior to existing non-digital currencies. With transactions theroretically being public, I want to build a small project to possibly guage how transparent the space actually is, peek into the crypto-related activity that celebrities have taken so far, and practice setting up data engineering infrastructure.
 
