@@ -19,6 +19,13 @@ INSERT_WALLET_HOLDINGS = \
     ON DUPLICATE KEY UPDATE balance=%s
     """
 
+INSERT_TRANSACTIONS = \
+    """
+    INSERT INTO transaction (wallet_id, timestamp, from_address, to_address, hash, value, success, flow)
+    VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+    ON DUPLICATE KEY UPDATE  hash=%s
+    """
+
 CREATE_TOKEN_TABLE = \
     """
     CREATE TABLE `token` (
